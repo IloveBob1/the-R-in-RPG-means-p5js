@@ -5,7 +5,7 @@ var back;
 var gameOver = false;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 600);
   player = new Player(int(width/(2*SCL)), int(height/(2*SCL)));
   back = new Background();
   back.setData();
